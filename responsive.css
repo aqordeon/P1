@@ -1,0 +1,46 @@
+@media all and (max-width: 1000px) {
+    .portofolio-card {
+        height: 200px;
+        width: 296px;
+    }
+    .middle-line {
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+    .contact-form {
+        width: 300px;
+    }
+    .hitme-wrapper {
+        width: 300px;
+    }
+    .hitme-card {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portofolio-card {
+        height: 160px;
+        width: 237px;
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .logo-wrapper {
+        width: 45px;
+        height: 45px;
+    }
+    .middle-line {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .contact-form {
+        width: 250px;
+    }
+    .hitme-wrapper {
+        width: 250px;
+    }
+    .hitme-card {
+        width: 200px;
+    }
+}
