@@ -403,6 +403,14 @@ section {
     border: 3px solid #3c068e;
 }
 
+.card-counter {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    z-index: 999;
+    opacity: 0;
+}
+
 .card-title-wrapper {
     position: absolute;
     left: 17px;
@@ -501,10 +509,8 @@ section {
 }
 
 .contact-form {
-    /* margin-top: 20px; */
     margin-bottom: 20px;
     width: 400px;
-    /* background-color: #749f58; */
 }
 
 .contact-form fieldset {
@@ -578,8 +584,6 @@ section {
 .hitme-wrapper {
     width: 400px;
     display: flex;
-    /* align-items: center; */
-    /* height: 300px; */
 }
 
 .hitme {
@@ -686,14 +690,4 @@ html::-webkit-scrollbar-thumb {
     background-color: #383d4d;
     border-radius: 99em;
     border: 6px solid #1e1f26;
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        grid-template-columns: 1fr;
-    }
-    .logo-wrapper {
-        width: 45px;
-        height: 45px;
-    }
 }
