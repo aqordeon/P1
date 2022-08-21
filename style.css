@@ -254,7 +254,7 @@ section {
 }
 
 .column-left p {
-    margin-bottom: 2rem;
+    margin-bottom: 10px;
     font-size: 1rem;
     line-height: 1.1;
 }
